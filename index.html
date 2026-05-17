@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9626769655428169"
+     crossorigin="anonymous"></script>
+<!-- ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9626769655428169"
+     data-ad-slot="9018279500"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Message Sender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo section -->
+        <div class="logo-container">
+            <img src="logo.png" alt="Private Message Sender Logo" class="logo">
+        </div>
+        <h1>Private Message Sender</h1>
+        <p class="description">Convert your text to a number code for secure sharing. Others can decode the number to read your message.</p>
+        
+        <div class="section">
+            <h2>Encode Message</h2>
+            <textarea id="textInput" placeholder="Enter your private message here..."></textarea>
+            <button id="encodeBtn">Convert to Number Code</button>
+            <div id="encodedResult" class="result hidden">
+                <label for="codeOutput">Your Number Code:</label>
+                <input type="text" id="codeOutput" readonly>
+                <button id="copyCodeBtn">Copy Code</button>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Decode Message</h2>
+            <input type="text" id="codeInput" placeholder="Enter the number code here...">
+            <button id="decodeBtn">Decode Message</button>
+            <div id="decodedResult" class="result hidden">
+                <label for="textOutput">Decoded Message:</label>
+                <textarea id="textOutput" readonly></textarea>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h3>How It Works</h3>
+            <ul>
+                <li>Enter your private message and click "Convert to Number Code"</li>
+                <li>Share the generated number code with your recipient</li>
+                <li>Recipient enters the number code and clicks "Decode Message"</li>
+                <li>They will see your original message</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
